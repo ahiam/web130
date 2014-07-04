@@ -1,0 +1,91 @@
+#main {
+  width:58%;
+  padding: 1%;
+  margin: 1%;
+  height: 400px;
+  float:left;
+  background-color: red;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+#side {
+  width: 38%;
+  padding: 1%;
+  margin: 1%;
+  height: 400px;
+  float: right;
+  background-color: blue;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+header {
+  background-color:pink;
+  padding: 1%;
+  margin: 1%;
+   box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  clear:both;
+  overflow:hidden;
+}
+
+footer {
+  background-color:green;
+  clear:both;
+   padding: 1%;
+  margin: 1%;
+   box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  overflow:hidden;
+}
+
+
+
+/* iPads (portrait)
+@media all and (min-width: 481px)
+and (max-width: 768px) 
+ {
+ #main {
+    float:left;
+    width： 58%;
+   padding: 1%;
+   margin: 1%;
+   box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  }
+  #side {
+    float:right;
+    width:38%;
+    padding: 1%;
+  margin: 1%;
+   box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  } 
+ }
+*/
+/* iphone  */
+@media all and (max-width:480px) {
+body {
+  background-color: yellow;
+}
+/*  #main, #side {
+    width： 98%;
+    float: none;
+    overflow: hidden;
+  } */
+  #main, #side {
+    float:none;
+    width:98%;
+ 
+  } 
+}
+
+
+/* end of media query */
